@@ -27,7 +27,7 @@ fingerprinting_detector/
 ├── detector.js          # Module JavaScript de détection
 ├── main.py             # Script principal Selenium
 ├── config.json         # Configuration de l'expérience
-├── websites.json       # Liste des 97 sites web à tester
+├── websites.json       # Liste des 100 sites web à tester
 ├── requirements.txt    # Dépendances Python
 ├── results/           # Résultats des tests (créé automatiquement)
 └── README.md          # Ce fichier
