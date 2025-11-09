@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Logs
+*.log
+logs/
+fingerprinting_experiment.log
+
+# Results (JSON outputs - trop volumineux pour GitHub)
+results/*
+!results/examples/
+!results/examples/**
+*.json.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX / Academic Papers (pas nécessaires dans le repo de code)
+*.tex
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+CONFIG_DRIVERS.txt
+CORRECTION_ERREURS.txt
+PASSER_MODE_COMPLET.txt
+COMPILER_RAPPORT.md
+EXPERIENCE_RESUME.md
+RESPONSE_TO_REVIEWERS.md
+
+# ChromeDriver / GeckoDriver binaries (not needed, use webdriver-manager)
+chromedriver.exe
+geckodriver.exe
+*.exe
+
+# Backup files
+*.bak
+*~
+

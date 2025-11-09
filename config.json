@@ -1,0 +1,18 @@
+{
+  "browsers": ["chrome", "firefox"],
+  "session_duration": 45,
+  "visits_per_browser": 2,
+  "days_between_visits": 15,
+  "results_dir": "results",
+  "websites_file": "websites.json",
+  "logging": {
+    "level": "INFO",
+    "log_file": "fingerprinting_experiment.log"
+  },
+  "experiment_settings": {
+    "timeout": 30,
+    "user_behavior_simulation": true,
+    "headless_mode": true
+  }
+}
+

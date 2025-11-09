@@ -1,0 +1,12 @@
+# Browser Fingerprinting Detection Experiment
+# Python Dependencies
+
+# Selenium for browser automation
+selenium>=4.15.0
+
+# WebDriver managers (optional, for automatic driver management)
+webdriver-manager>=4.0.0
+
+# Data processing
+# (No additional dependencies needed for base functionality)
+

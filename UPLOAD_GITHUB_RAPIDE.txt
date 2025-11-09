@@ -1,0 +1,126 @@
+═══════════════════════════════════════════════════════════════════
+   GUIDE RAPIDE - UPLOAD SUR GITHUB
+═══════════════════════════════════════════════════════════════════
+
+✅ FICHIERS PRÊTS : Seulement le code essentiel est conservé !
+
+📂 Fichiers qui seront uploadés (12 fichiers) :
+   ✅ main.py                 - Script principal
+   ✅ detector.js             - Module de détection
+   ✅ analyze_results.py      - Analyse
+   ✅ test_setup.py           - Tests
+   ✅ download_drivers.py     - Téléchargement drivers
+   ✅ requirements.txt        - Dépendances
+   ✅ config.json             - Configuration
+   ✅ websites.json           - Liste de 97 sites
+   ✅ test_websites.json      - Sites de test
+   ✅ README.md               - Documentation
+   ✅ LICENSE                 - Licence MIT
+   ✅ .gitignore              - Exclusions Git
+
+═══════════════════════════════════════════════════════════════════
+   ÉTAPE 1 : INSTALLER GIT
+═══════════════════════════════════════════════════════════════════
+
+Option A - Téléchargement direct :
+   1. Allez sur : https://git-scm.com/download/win
+   2. Installez avec les options par défaut
+   3. Redémarrez PowerShell
+
+Option B - Via Chocolatey (si installé) :
+   choco install git -y
+
+═══════════════════════════════════════════════════════════════════
+   ÉTAPE 2 : CONFIGURER GIT (une seule fois)
+═══════════════════════════════════════════════════════════════════
+
+Ouvrez PowerShell et tapez :
+
+git config --global user.name "Youness Ikkou"
+git config --global user.email "youness.ikkou.d23@ump.ac.ma"
+
+═══════════════════════════════════════════════════════════════════
+   ÉTAPE 3 : CRÉER LE DÉPÔT SUR GITHUB
+═══════════════════════════════════════════════════════════════════
+
+1. Allez sur : https://github.com
+2. Connectez-vous avec le compte : youness-ikkou
+3. Cliquez sur "+" → "New repository"
+4. Remplissez :
+   - Repository name : fingerprinting-detector
+   - Description : Open-source infrastructure for detecting browser fingerprinting
+   - Public : ✅
+   - NE COCHEZ PAS "Add README" (on en a déjà un !)
+5. Cliquez sur "Create repository"
+
+═══════════════════════════════════════════════════════════════════
+   ÉTAPE 4 : CRÉER UN PERSONAL ACCESS TOKEN
+═══════════════════════════════════════════════════════════════════
+
+1. Allez sur : https://github.com/settings/tokens
+2. Cliquez "Generate new token" → "Classic"
+3. Note : fingerprinting-detector
+4. Cochez : ✅ repo (full control)
+5. Cliquez "Generate token"
+6. COPIEZ LE TOKEN (format: ghp_xxxxxxxxxxxxx)
+7. Sauvegardez-le quelque part !
+
+═══════════════════════════════════════════════════════════════════
+   ÉTAPE 5 : UPLOADER LE CODE
+═══════════════════════════════════════════════════════════════════
+
+Copiez et collez ces commandes dans PowerShell :
+
+cd "C:\Users\PC\Desktop\doctorat\final edit\fingerprinting_detector"
+
+git init
+
+git add .
+
+git commit -m "Initial commit: Browser fingerprinting detection infrastructure"
+
+git branch -M main
+
+git remote add origin https://github.com/youness-ikkou/fingerprinting-detector.git
+
+git push -u origin main
+
+Quand on vous demande :
+   Username : youness-ikkou
+   Password : COLLEZ VOTRE TOKEN (pas votre mot de passe GitHub !)
+
+═══════════════════════════════════════════════════════════════════
+   ✅ TERMINÉ !
+═══════════════════════════════════════════════════════════════════
+
+Votre code sera visible sur :
+https://github.com/youness-ikkou/fingerprinting-detector
+
+Ce lien correspond exactement à celui dans votre article ! 🎉
+
+═══════════════════════════════════════════════════════════════════
+   🆘 EN CAS DE PROBLÈME
+═══════════════════════════════════════════════════════════════════
+
+Erreur "git not found" :
+   → Installez Git et redémarrez PowerShell
+
+Erreur "Authentication failed" :
+   → Vérifiez que vous utilisez le TOKEN, pas le mot de passe
+
+Erreur "remote already exists" :
+   → Tapez : git remote remove origin
+   → Puis réessayez le "git remote add origin"
+
+═══════════════════════════════════════════════════════════════════
+   📊 STATISTIQUES DU PROJET
+═══════════════════════════════════════════════════════════════════
+
+Fichiers de code :     12 fichiers (~70 KB)
+Dépendances :          2 packages (Selenium, webdriver-manager)
+Navigateurs testés :   Chrome 141, Firefox
+Sites testés :         100 sites web
+Documentation :        README.md complet avec résultats
+
+═══════════════════════════════════════════════════════════════════
+
